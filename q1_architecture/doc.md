@@ -29,19 +29,28 @@ In this system:
 ⸻
 
 System Architecture
-'''
-                 Judge Interface
-                       |
-              ---------------------
-              |                   |
-        Conversation Manager
-              |
-     -------------------------------
-     |                             |
-Human Participant            AI Chatbot
-     |                             |
-     ----------- Database ----------
-'''
+## System Architecture
+
+```text
+                     Judge Interface
+                           |
+                           |
+                 ---------------------
+                 |                   |
+                 |  Conversation     |
+                 |     Manager       |
+                 |                   |
+                 ---------------------
+                           |
+                           |
+          -----------------------------------------
+          |                                       |
+          |                                       |
+   Human Participant                         AI Chatbot
+          |                                       |
+          |                                       |
+          -----------        Database       --------
+```
 Components
 
 1. Judge Interface
@@ -106,20 +115,24 @@ Common CAPTCHA types include:
 ⸻
 
 CAPTCHA System Architecture
-'''
-            Web Client
-                |
-        CAPTCHA Interface
-                |
-        CAPTCHA Generator
-                |
-        ------------------
-        |                |
-   Challenge Database   Verification Module
-                |
-            Web Server
-'''
+## CAPTCHA System Architecture
 
+```text
+                     Web Client
+                         |
+                         |
+                 CAPTCHA Interface
+                         |
+                         |
+                 CAPTCHA Generator
+                         |
+                         |
+                ---------------------
+                |                   |
+        Challenge Database   Verification Module
+                |                   |
+                ----------- Web Server ----------
+```
 ⸻
 
 Components
