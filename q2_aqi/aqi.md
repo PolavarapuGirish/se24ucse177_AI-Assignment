@@ -64,14 +64,15 @@ AQI Range	Category
 
 ⸻
 
-Project Structure
+## Project Structure
 
+```
 AQI-Reflex-Agent
 │
 ├── aqi_reflex_agent.py
 ├── sensor_data.txt
 └── README.md
-
+```
 
 ⸻
 
@@ -103,7 +104,7 @@ How to Run the Program
 
 Step 1: Clone the repository
 
-git clone https://github.com/yourusername/AQI-Reflex-Agent.git
+git clone https://github.com/PolavarapuGirish/se24ucse177_AI-Assignment.git
 
 Step 2: Navigate to the project folder
 
