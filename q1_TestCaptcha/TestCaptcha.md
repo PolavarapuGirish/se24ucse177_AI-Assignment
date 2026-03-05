@@ -1,5 +1,3 @@
-:::writing{variant=“standard” id=“58374”}
-
 Turing Test and CAPTCHA System Design
 
 Overview
