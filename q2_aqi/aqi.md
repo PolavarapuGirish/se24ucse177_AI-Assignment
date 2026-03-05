@@ -4,55 +4,41 @@ Project Overview
 
 This project implements a Simple Reflex Agent in Python that determines the Air Quality Index (AQI) of a region using environmental sensor data.
 
-The agent reads pollution parameters from a sensor data file, evaluates them using predefined condition–action rules, and outputs the AQI value and corresponding air quality category.
+The agent reads pollution parameters from a sensor data file, evaluates them using predefined condition–action rules, and outputs the AQI value along with the air quality category.
 
-The system simulates how an AI agent interacts with the environment through sensors and produces actions based on rules.
+This project demonstrates how Artificial Intelligence agents interact with an environment using sensors and produce actions based on rules.
 
 ⸻
 
 Objectives
-	•	To understand the concept of Simple Reflex Agents in Artificial Intelligence
-	•	To simulate environmental sensing using a data file
-	•	To implement rule-based decision making
-	•	To determine AQI category based on pollution levels
+	•	Understand the concept of Simple Reflex Agents in Artificial Intelligence
+	•	Simulate environmental sensing using a data file
+	•	Implement rule-based decision making
+	•	Determine AQI category based on pollution levels
 
 ⸻
 
 Agent Architecture
 
-The system follows the Simple Reflex Agent architecture, where the agent makes decisions based only on the current percept.
+The system follows the Simple Reflex Agent architecture, where decisions are made based only on the current percept.
 
 Architecture Flow
 
 Environment
-     ↓
+↓
 Sensors (Read pollution data file)
-     ↓
+↓
 Simple Reflex Agent
-     ↓
+↓
 Condition–Action Rules
-     ↓
+↓
 AQI Category Output
-
-Components
-
-Environment
-	•	Contains pollution parameters of a region.
-
-Sensors
-	•	Read environmental data from a file (sensor_data.txt).
-
-Agent
-	•	Processes the input and determines AQI.
-
-Actuator (Output)
-	•	Displays AQI value and air quality category.
 
 ⸻
 
 Environmental Parameters Used
 
-The following pollutants are considered:
+The agent uses the following pollution parameters:
 
 Parameter	Description
 PM2.5	Fine particulate matter
@@ -66,8 +52,6 @@ These values are read from the sensor data file.
 ⸻
 
 AQI Categories
-
-The AQI value is classified into different air quality levels:
 
 AQI Range	Category
 0 – 50	Good
@@ -91,9 +75,9 @@ AQI-Reflex-Agent
 
 ⸻
 
-Sensor Data File
+Sensor Data File Example
 
-Example content of sensor_data.txt:
+Example content of sensor_data.txt
 
 PM2.5: 55
 PM10: 90
@@ -101,7 +85,7 @@ CO: 1.2
 NO2: 40
 SO2: 15
 
-This file represents environmental parameters collected from sensors.
+This file represents environmental data collected from sensors.
 
 ⸻
 
@@ -109,7 +93,7 @@ Algorithm
 
 Step 1: Read environmental parameters from the sensor file
 Step 2: Extract pollutant values
-Step 3: Calculate AQI using a simplified weighted formula
+Step 3: Calculate AQI using a simplified formula
 Step 4: Apply condition–action rules
 Step 5: Display AQI value and air quality category
 
@@ -117,21 +101,15 @@ Step 5: Display AQI value and air quality category
 
 How to Run the Program
 
-Step 1
-
-Clone the repository
+Step 1: Clone the repository
 
 git clone https://github.com/yourusername/AQI-Reflex-Agent.git
 
-Step 2
-
-Navigate to the project folder
+Step 2: Navigate to the project folder
 
 cd AQI-Reflex-Agent
 
-Step 3
-
-Run the Python program
+Step 3: Run the Python program
 
 python aqi_reflex_agent.py
 
@@ -173,4 +151,4 @@ Technologies Used
 
 Conclusion
 
-This project demonstrates how a Simple Reflex Agent can be used to process environmental data and determine the Air Quality Index of a region. The agent makes decisions using rule-based reasoning, showing a basic implementation of AI agent architecture.
+This project demonstrates how a Simple Reflex Agent can analyze environmental data and determine the Air Quality Index of a region. The agent uses rule-based reasoning to make decisions based on current sensor data.
